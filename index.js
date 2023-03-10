@@ -7,7 +7,7 @@ var validRegex = /^([a-zA-Z0-9\._]+)@([[a-zA-Z0-9]+).([a-z]{2,20})$/;
         {
             let s=str.substring(0,str.indexOf("@"));
             let u=s.toUpperCase();
-            console.log("SUCCESSFULLY LOGGED IN "+ u+"\nUSERNAME :"+str+"\nPASSWORD :"+str1);
+            console.log("SUCCESSFULLY LOGGED IN \nWELCOME "+ u+"\nUSERNAME :"+str+"\nPASSWORD :"+str1);
         }
         else 
         {
