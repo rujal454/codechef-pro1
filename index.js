@@ -1,6 +1,6 @@
 const prompt = require('prompt-sync')();
-const str = prompt('USERNAME:');
-const str1 = prompt("PASSWORD:");
+var str = prompt('USERNAME:');
+var str1 = prompt("PASSWORD:");
 var validRegex = /^([a-zA-Z0-9\._]+)@([[a-zA-Z0-9]+).([a-z]{2,20})$/;
         
         if(str.match(validRegex) && str1.length>=6)
